@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1200px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+}
+header{
+    background-color: #1e1c21;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.container_header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    
+}
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque */
+    width: 590px;
+}
+.menu_header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+.btn_menu i{
+    display: none;
+    color: white;
+    font-size: 30px;
+
+}
+main{
+    margin-top: 64px;
+}
+.logo{
+height: 32px;
+
+}
+.links a{
+    font-family: Roboto;
+    font-style: 64px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.container_banner{
+    display: flex;
+    background-image: linear-gradient(to right,#c61c1c, #a81919, #060606, black);
+    position: relative;
+    height: 600px;
+    
+}
+/* .pilotos{
+    margin: 80px;
+    padding: 0 190px;
+    
+} */
+.conteudo_banner{
+   
+    /* position: absolute;
+    top: 250px;
+    left: 1100px; */
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: center;
+    line-height: 75px;
+    justify-content: center;
+
+}
+.conteudo_banner h1{
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.container_banner span{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+.conteudo_banner a{
+    display: block;
+    color: #ffffff;
+}
+.botão {
+    background:#f10000;
+    border-radius:10px;
+    padding:19px 25px;
+    color: #ffffff;
+    display:inline-block;
+    font:normal bold 20px/1 "Open Sans", sans-serif;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+ }
+ .menu_logos{
+     background: black;
+     height: 110px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     /* background-color: bisque */
+ }
+
+   
+/* .container_liga{
+    position: relative;
+    display: flex;
+  
+} */
+.container_liga{
+   
+    height: 340px;
+    background-image: url(../assets_/Fundo\ ligAS.png);
+    padding-top: 30px;
+    background-position: center;
+}
+
+.fundo_liga{
+    width: 100%;
+    height: initial;
+}
+.texto_info{
+
+    display: flex;
+  /* clip-path: polygon(100% 30%, 100% 85%, 0 100%, 0 60%); */
+  background: black;
+  
+  transform: skewY(-4deg);
+  justify-content: space-evenly;
+  
+  height: 260px;
+  width: 100%;
+  
+}
+.info{
+     color: #ffffff;  
+     
+     transform: skewY(4deg);
+    width: 594px;
+}
+ 
+ .texto_info h3{
+    color: #ffffff;
+   
+    
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px; 
+    line-height: 60px;
+  
+} 
+ .texto_info p{
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    /* line-height: 25px; */
+    font-size: 11px;
+    width: 410px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 110px;
+}
+
+  .img_perso{
+    
+    
+    height: 320px;
+   
+}  
+  .menu_campeonato{
+
+    background: black;
+    height:80px;
+    /* width: 1292px; */
+    display: flex;
+    justify-content:space-evenly;
+
+    align-items: center;
+}
+
+.menu_campeonato a{
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+.ao{
+    padding-left: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+.txt_cam span{
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    
+
+}
+
+.sk2{
+    display: flex;
+align-items: center;
+padding-left: 10%;
+}
+
+.sk3{
+    display: flex;
+align-items: center;
+padding-left: 5%;
+}
+
+.sk4{
+    display: flex;
+align-items: center;
+padding-left: 8%;
+}
+
+.em{
+    padding-left: 10%;
+    font-weight: bold;
+
+}
+
+.container_noticias{
+    height: auto;
+    background: #1E1C21;
+    padding-left: 80px;
+    
+
+}
+.container_noticias h2{
+    /* padding-left: 10px; */
+    padding-top: 5%;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+.org{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container_noticias a{
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.noticia_fundo{
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(0.45deg, #060606 0.73%, rgba(6, 6, 6, 0) 40.52%, rgba(6, 6, 6, 0.65625) 99.96%);
+    justify-content: space-between;
+    font-family: 'Titillium Web', sans-serif;
+}
+.noticia_fundo h5{
+    padding-left: 50px;
+    color: #ffffff;
+}
+.noticia_fundo p{
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 15px;
+    color: #ffffff;
+}
+    
+.img_article{
+    width: 250px;
+    
+} 
+.fora{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.proximos{
+    background: #1E1C21;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 5%;
+padding-top: 5%;
+flex-direction: column;
+}
+.proximos h2{
+    /* width: 300px;
+    height: 700px;
+     */
+     color: #ffffff;
+     font-family: 'Titillium Web', sans-serif;
+     font-size: 21px;
+     line-height: 35px;
+}
+.jogos{
+    color: #ffffff;
+    display: flex;
+align-items: center;
+padding-left: 8%;
+}
+.jogos_p{
+    padding-top: 35px;
+    background: linear-gradient(0.45deg, #060606 0.73%, rgba(6, 6, 6, 0) 40.52%, rgba(6, 6, 6, 0.65625) 99.96%);
+    width: 220px;
+    height: 795px;
+}
+.jogos_p a{
+    color: #ffffff;
+    padding-left: 33px;
+    line-height: 65px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.jogos_card{
+    line-height: 20px;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.container_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_links {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.container_links span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.container_links li {
+    color: white;
+}
+
+.container_links a {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.siga_nos .clan {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.siga_nos .segue {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.siga_nos img {
+    height: 40px;
+    width: 40px;
+}
+
+.cadastrar {
+    display: flex;
+}
+
+.cadastrar input {
+    height: 40px;
+    width: 220px;
+}
+
+.cadastrar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #001F70;
+    height: 40px;
+    width: 126px;
+}
+
+.cadastrar a span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
