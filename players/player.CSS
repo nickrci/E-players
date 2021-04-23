@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Título com imagem de fundo */
+
+.container_titulo{
+    
+    background-position: center;
+    height: 240px;
+}
+
+.img_cima{
+    
+    background-image: url(../assets_/Rectangle\ 5.png);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_cima h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+/* Formulário */
+
+.formulario{
+    background-color: #1E1C21;
+    height: 1085px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    height: 630px;
+    width: 770px;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 23%, rgba(48,48,48,1) 68%, rgba(0,0,9,1) 100%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 90px;
+}
+
+.separar{
+    width: 100%;
+    height: 235px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.escrever{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.escrever span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.escrever input{
+    background-color: #ABABAB;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.escrever select{
+    background-color: #ABABAB;
+    height: 30px;
+    width: 100%;
+}
+
+.enviar{
+    width: 257px;
+    height: 40px;
+    background-color: #C31616;
+    border-radius: 10px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 5px 65px;
+}
+
+/* Tabela */
+.players_j{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.players_j h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+table{
+    border: 2px solid white;
+    width: 770px;
+    border-collapse: collapse;
+}
+
+.players_j th{
+    background-color: #C31616;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    height: 60px;
+    border-left: 1px solid black;
+    text-align: start;
+    padding-left: 20px;
+}
+
+.players_j td{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    height: 58px;
+    padding-left: 25px;
+}
+
+table img{
+    height: 38px;
+}

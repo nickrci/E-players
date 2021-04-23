@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1200px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+}
+header{
+    background-color: #1e1c21;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.container_header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    
+}
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque */
+    width: 590px;
+}
+.menu_header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+.btn_menu i{
+    display: none;
+    color: white;
+    font-size: 30px;
+
+}
+footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.container_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pa_fo{
+    line-height: 30px;
+}
+
+.container_links {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.container_links span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.container_links li {
+    color: white;
+}
+
+.container_links a {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.siga{
+    line-height: 30px;
+}
+.siga .clan {
+    font-family: 'Segoe UI' 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.siga .segue {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.siga img {
+    height: 40px;
+    width: 40px;
+}
+
+.cadastrar {
+    display: flex;
+}
+
+.cadastrar input {
+    height: 40px;
+    width: 220px;
+}
+
+.cadastrar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #001F70;
+    height: 40px;
+    width: 160px;
+}
+
+.cadastrar a span {
+    font-family:  'Segoe UI' 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
